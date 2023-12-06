@@ -1,0 +1,350 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL SETTING */
+
+body {
+    font-family: "Kanit", "Ubuntu", sans-serif;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* NAV BAR */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.brand {
+    font-size: 32px;
+    cursor:pointer;
+}
+
+.brand span {   
+    font-weight: 900;
+    padding-right: 2px;
+    cursor:pointer;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    cursor:pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #393D58;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+nav i {
+    padding-top: 0.5rem;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: space-between;    
+    padding-top: 5rem;
+    padding-left: 2.5rem;
+    padding-right: 4rem;
+    background-color: #FAFAFA;
+
+}
+
+.mycart {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+
+/* google select */
+
+/* LEFT AREA */
+
+.left {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.gdocs {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    gap: 1rem;
+    width: 520px;   
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 40px;
+    padding-right: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.gslide {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+    gap: 1rem;
+    width: 520px;   
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 40px;
+    padding-right: 100px;
+}
+
+.trash {
+    border: 1px solid #00dbb5;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    cursor:pointer;
+}
+
+.zone1 {
+    /* border: 1px solid #00dbb5; */
+    background-color:#89C1FC;
+    border-radius: 20px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    gap: 5px;
+}
+
+.zone2 {
+    /* border: 1px solid #00dbb5; */
+    background-color:#F2C069;
+    border-radius: 20px;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    gap: 5px;
+}
+
+.docs {
+    /* border: 1px solid red; */
+    border-radius: 6px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1 {
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.line2 {
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.lvl {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.click {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.gtitle {
+    font-size: 22px;
+    color: #515669;
+    font-weight: 600;
+}
+
+.thb {
+    font-size: 18px;
+    color: #6F7B98;
+    font-weight: 600;
+}
+
+.pick {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.greendot {
+    background-color: #03DAB3;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px
+}
+
+.graydot {
+    background-color: #E6F2FE;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px
+}
+
+select {
+    border: solid 1px #03DAB3;
+    color: #AFAFAF;
+    font-weight: 600;
+}
+
+/* RIGHT AREA */
+
+.right {
+    display: flex;
+    margin-top: 115px;
+    height: 350px;
+}
+
+.order {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; 
+    width: 520px;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: solid 1px lightgrey;
+    padding-bottom: 20px;
+}
+
+.orderinfo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #293648;
+}
+
+.topa {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.subtotal {
+    font-size: 18px;
+    font-weight: 600;
+    color: #8C91A9;
+}
+
+.sthb {
+    font-size: 18px;
+    font-weight: 500;
+    color: #637081;
+}
+
+.promo {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    align-content: stretch;
+    gap: 10px;
+}
+
+input[type=text] {
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    padding: 0.4rem;
+    width: 280px;
+    height: 40px;
+  }
+
+.apply {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:10px;
+	border:1px solid #03dab3;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+	cursor:pointer;
+	color:#03dab3;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    width: 150px;
+    height: 40px;
+}
+
+.btm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.totpay {
+    font-size: 16px;
+    font-weight: 600;
+    color: #293648;
+}
+
+.thb300 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #5AC4AE;
+}
+
+.checkout {
+    box-shadow: 0px 7px 18px -4px #00dbb7;
+	background:linear-gradient(to bottom, #00dbb7 5%, #00dbb7 100%);
+	background-color:#00dbb7;
+	border-radius:20px;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+	cursor:pointer;
+	color:#104255;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #00dbb7;
+    justify-content: center;
+    align-content: center;
+}
